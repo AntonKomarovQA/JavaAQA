@@ -2,11 +2,14 @@ package Java;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("Hello and welcome!");
 
+        Car car = new Car("Nissan",40);
+        Car car2 = new Car("Nissan",40);
+        boolean isSame = car.equals(car2);
 
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
-        }
+        boolean isModelSame = car.getName().equals(car2.getName());
+        System.out.println(isSame);
+        System.out.println(isModelSame);
+
     }
 }
