@@ -1,5 +1,7 @@
 package Java;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 public class Car {
@@ -39,5 +41,23 @@ public class Car {
     @Override
     public int hashCode() {
         return Objects.hash(name, fuel);
+    }
+
+    public static List<Car> getCarName(){
+        List<Car> cars = new ArrayList<Car>(){{
+            add(new Car("Tesla",0));
+            add(new Car("BMW",10));
+            add(new Car("Exeed",30));
+            add(new Car("LADA",50));
+        }};
+        return cars;
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "name='" + name + '\'' +
+                ", fuel=" + fuel +
+                '}';
     }
 }
