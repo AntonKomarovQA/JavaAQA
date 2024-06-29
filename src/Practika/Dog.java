@@ -22,13 +22,13 @@ public class Dog {
     static void run(){
         System.out.println("Beg");
     }
-    static void rip(){
-        List<Dog> dogs = new ArrayList<>();
-        dogs.remove(dogs);
+    //Собака убивается
+    static void rip(List<Dog> dog, Dog dogs){
         System.out.println("ymer pes");
+        dog.remove(dogs);
     }
     static void comeDog(){
-        System.out.println("pes +");
+        System.out.println("Pes +");
     }
 
     public Dog(String name, int age, DogType type) {
@@ -54,7 +54,7 @@ public class Dog {
         String[] types = { "LAIKA", "PITBUL", "HASKI", "KORGI"};
         return DogType.valueOf(types[random.nextInt(types.length)]);
     }
-
+    // Метод для случайного действия
     static void selectRandom(List<Dog> dog){
         Random random = new Random();
         int actionIndex = random.nextInt(6);
@@ -73,14 +73,11 @@ public class Dog {
                 Dog.run();
                 break;
                 case 4:
-                Dog.rip();
-                dog.remove(dog);
+                Dog.rip(dog, dog.get(random.nextInt(dog.size())));
                 break;
                 case 5:
                 Dog.comeDog();
                 break;
         }
     }
-
-
  }

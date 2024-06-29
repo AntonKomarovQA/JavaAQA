@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d38ab883-c8e8-44f3-911f-5c917793be08" name="Changes" comment="Start course on AutoQA_java stream">
-      <change afterPath="$PROJECT_DIR$/src/Practika/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practika/DogType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practika/Test.java" afterDir="false" />
+    <list default="true" id="d38ab883-c8e8-44f3-911f-5c917793be08" name="Changes" comment="Homework method rip - removeObjectinList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practika/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practika/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,13 +137,37 @@
       <option name="project" value="LOCAL" />
       <updated>1719494290647</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Homework method rip - removeObjectinList">
+      <option name="closed" value="true" />
+      <created>1719580167163</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719580167163</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start course on AutoQA_java" />
     <MESSAGE value="Start course on AutoQA_java sravnenie" />
     <MESSAGE value="Start course on AutoQA_java stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start course on AutoQA_java stream" />
+    <MESSAGE value="Homework method rip - removeObjectinList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework method rip - removeObjectinList" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Practika/Dog.java</url>
+          <line>25</line>
+          <properties class="Practika.Dog" method="rip">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
