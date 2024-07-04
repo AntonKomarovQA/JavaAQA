@@ -1,11 +1,21 @@
 package Practika;
 
+/* Реализовать семейство псов, где будет 3 типа собак
+    Изначально в семействе 30 собак
+    Нужно сделать так что бы в течении 1 года выбиралась случайная собака и выполняла случайное действие
+    Каждый 30 день в семействе должна пополняться 1 собака
+    Нужно вывести на экран сколько псов было до и сколько стало после
+    Использовать класс Random
+ */
+
+
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 public class Dog {
+    private static Random random = new Random();
     private String name;
     private int age;
     private DogType type;
@@ -34,9 +44,8 @@ public class Dog {
 
     //Пополнение собак на одну
     static void comeDog(List<Dog> dog) {
-        Random random = new Random();
         dog.add(new Dog((getRandomName(random)), getRandomAge(random), getRandonType(random)));
-        System.out.println("Pes + " +"Пополнение в стае собак "+dog.size());
+        System.out.println("Pes + " + "Пополнение в стае собак " + dog.size());
     }
 
     public Dog(String name, int age, DogType type) {
@@ -44,6 +53,10 @@ public class Dog {
         this.age = age;
         this.type = type;
 
+    }
+
+    public DogType getType() {
+        return type;
     }
 
     @Override
@@ -71,7 +84,6 @@ public class Dog {
 
     // Метод для случайного действия
     static void selectRandom(List<Dog> dog) {
-        Random random = new Random();
         int actionIndex = random.nextInt(6);
 
         switch (actionIndex) {

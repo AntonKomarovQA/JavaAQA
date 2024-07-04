@@ -1,9 +1,7 @@
 package Practika;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Test {
     public static void main(String[] args) {
@@ -11,18 +9,13 @@ public class Test {
         Random random = new Random();
 
         // Создание и добавление 5 случайных объектов Dog в список
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 30; i++) {
             String name = Dog.getRandomName(random); // случайное имя
             int age = Dog.getRandomAge(random);// случайный age
             DogType type = Dog.getRandonType(random); // случайный тип
             dogs.add(new Dog(name, age, type));
         }
         int colvoDog = dogs.size();
-//        // Вывод содержимого списка
-//        for (Dog dog : dogs) {
-//            System.out.println(dog);
-//        }
-
 
         final int dayYear = 365;
         final int dayNedela = 7;
@@ -42,11 +35,15 @@ public class Test {
             }
         }
 
-//        // Вывод нового списка собак
-//        for (Dog dog : dogs) {
-//            System.out.println(dog);
-//        }
 
+//        // Подсчет количества разных типов собак
+        Map<DogType, Long> dogTypesCount = dogs.stream()
+                .collect(Collectors.groupingBy(Dog::getType, Collectors.counting()));
+
+//        // Вывод результатов
+        for (Map.Entry<DogType, Long> entry : dogTypesCount.entrySet()) {
+            System.out.println("Порода собак: "+ entry.getKey() + ": кол-во " + entry.getValue());
+        }
 
         System.out.println("Количество стаи собак в начале года "+colvoDog + " Спустя год " + dogs.size());
     }
