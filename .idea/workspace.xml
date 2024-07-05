@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d38ab883-c8e8-44f3-911f-5c917793be08" name="Changes" comment="Eddit class DOG mothod selectRandom case5 and method comeDoge">
-      <change afterPath="$PROJECT_DIR$/src/Practika2_0/Deistvia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practika2_0/Dogs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practika2_0/Haski.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practika2_0/Korgi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practika2_0/Laika.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practika2_0/Randomaizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practika2_0/TestDog.java" afterDir="false" />
+    <list default="true" id="d38ab883-c8e8-44f3-911f-5c917793be08" name="Changes" comment="New realization class Dogs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practika/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practika/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,8 +175,27 @@
       <option name="project" value="LOCAL" />
       <updated>1719662959866</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="New realization class Dogs">
+      <option name="closed" value="true" />
+      <created>1720120267843</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720120267843</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start course on AutoQA_java" />
@@ -194,6 +204,7 @@
     <MESSAGE value="Homework method rip - removeObjectinList" />
     <MESSAGE value="eddit class DOG mothod selectRandom case4 and method rip" />
     <MESSAGE value="Eddit class DOG mothod selectRandom case5 and method comeDoge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eddit class DOG mothod selectRandom case5 and method comeDoge" />
+    <MESSAGE value="New realization class Dogs" />
+    <option name="LAST_COMMIT_MESSAGE" value="New realization class Dogs" />
   </component>
 </project>
