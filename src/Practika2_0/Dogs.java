@@ -87,4 +87,5 @@ public abstract class Dogs implements Randomaizer {
     }
 
     public abstract String getType() ;
+
 }
