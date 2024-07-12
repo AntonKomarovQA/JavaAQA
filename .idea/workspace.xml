@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d38ab883-c8e8-44f3-911f-5c917793be08" name="Changes" comment="Redesign of the Dog class">
+      <change afterPath="$PROJECT_DIR$/src/Practika2_0/active/Deistvia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practika2_0/fabricaDog/RandomNewDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practika2_0/models/Dogs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practika2_0/models/Korgi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practika2_0/models/Laika.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/QA/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA/src/test/java/models/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/QA/src/test/java/models/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA/src/test/java/tests/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/QA/src/test/java/tests/SimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practika2_0/Deistvia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practika2_0/Dogs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practika2_0/Haski.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/models/Haski.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practika2_0/Korgi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practika2_0/Laika.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practika2_0/Randomaizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practika2_0/TestDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/TestDog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -34,17 +49,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Anton-Kot/Downloads/Telegram Desktop/JavaAQA&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Anton-Kot/IdeaProjects/AutoQA/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Anton-Kot/IdeaProjects/AutoQA/QA",
+    "onboarding.tips.debug.path": "C:/Users/Anton-Kot/IdeaProjects/AutoQA/src/Main.java",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
-  <component name="RunManager" selected="Application.Test">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Practika2_0.fabricaDog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Anton-Kot\IdeaProjects\AutoQA\src\Practika2_0\active" />
+      <recent name="C:\Users\Anton-Kot\IdeaProjects\AutoQA\src\Practika2_0\models" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Practika2_0.fabricaDog" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestDog">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java.Main" />
       <module name="AutoQA" />
@@ -102,7 +129,7 @@
       <module name="AutoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practika2_0.*" />
+          <option name="PATTERN" value="Practika2_0.active.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,8 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.TestDog" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Stream" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.StreamClaasExample" />
@@ -217,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720610968598</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Redesign of the Dog class">
+      <option name="closed" value="true" />
+      <created>1720679184815</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720679184815</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,5 +306,48 @@
     <MESSAGE value="New realization class Dogs" />
     <MESSAGE value="Redesign of the Dog class" />
     <option name="LAST_COMMIT_MESSAGE" value="Redesign of the Dog class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Practika2_0/fabricaDog/RandomNewDog.java</url>
+          <line>11</line>
+          <properties class="Practika2_0.fabricaDog.RandomNewDog" method="getRandom">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Practika2_0/fabricaDog/BaseDogFactory.java</url>
+          <line>5</line>
+          <properties class="Practika2_0.fabricaDog.BaseDogFactory" method="getRandomName">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Practika2_0/fabricaDog/DogFactoryHaski.java</url>
+          <line>8</line>
+          <properties class="Practika2_0.fabricaDog.DogFactoryHaski" method="getRandomName">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Practika2_0/fabricaDog/RandomNewDog.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Practika2_0/TestDog.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
