@@ -2,6 +2,8 @@ package Practika2_0;
 
 
 import Practika.DogFactory;
+import Practika2_0.active.Deistvia;
+import Practika2_0.active.RandomActive;
 import Practika2_0.fabricaDog.DogFactoryHaski;
 import Practika2_0.fabricaDog.DogFactoryKorgi;
 import Practika2_0.fabricaDog.DogFactoryLaika;
@@ -32,26 +34,12 @@ public class TestDog {
                 case 2 -> dogs.add(RandomNewDog.getRandom(dogfLaika));
             }
         }
-//        final int dayYear = 365;
-//        final int dayNedela = 7;
-//
-//        // в течении 1 года выбирается случайная собака и выполняется случайное действие
-//        for (int day = 1; day < dayYear; day++) {
-//            if (day % dayNedela == 0) {
-//                Dogs randomDog = dogs.get(random.nextInt(dogs.size()));
-//                    Dogs.selectRandom((Deistvia) randomDog);
-//                }
-//
-//            // Каждый 30 день пополняется 1 собака
-//            if (day % 30 == 0) {
-//                dogs.add(Dogs.getRandom());
-//            }
-//        }
-//
         // view ListDogs
         for (Dogs dogs1 : dogs) {
             System.out.println(dogs1);
         }
+
+
 
         System.out.println(dogs.size());
 
@@ -62,7 +50,7 @@ public class TestDog {
         for (Map.Entry<String, Long> entry: dogsLongMap.entrySet()){
             System.out.println("Порода собак: "+ entry.getKey()+ " : кол-во "+entry.getValue());
         }
+
+        RandomActive.performRandom(dogs);
     }
-
-
 }

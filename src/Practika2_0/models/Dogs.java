@@ -10,7 +10,7 @@ package Practika2_0.models;
 
 import Practika2_0.active.Deistvia;
 
-public abstract class Dogs  {
+public abstract class Dogs   {
     private   String name;
     private  int age;
     private  String color;

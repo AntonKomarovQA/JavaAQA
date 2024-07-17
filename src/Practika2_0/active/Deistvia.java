@@ -6,13 +6,13 @@ import java.util.Random;
 public interface Deistvia {
     Random random = new Random();
     //Довольная собака или нет
-    void dovolstvia();
+     void dovolstvia();
     //Все собаки издают голос
-    void lay();
+     void lay();
     //Собаки отдыхают
-    void relax();
+     void relax();
     //Собаки делают кусь
-    void kus();
+     void kus();
     //Каждая собака бежит с разной скоростью
      void speeRun(int a) ;
 
