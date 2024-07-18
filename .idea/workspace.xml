@@ -8,10 +8,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QA/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QA/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/QA/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA/src/test/java/tests/PropertiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/QA/src/test/java/tests/PropertiesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QA/src/test/java/tests/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/QA/src/test/java/tests/SimpleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QA/src/test/java/utilits/JsonHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/QA/src/test/java/utilits/JsonHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Practika2_0/TestDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/TestDog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practika2_0/active/Deistvia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/active/Deistvia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practika2_0/active/Deistvia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/models/Deistvia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practika2_0/active/RandomActive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/RandomActive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practika2_0/fabricaDog/BaseDogFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/fabricaDog/BaseDogFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practika2_0/fabricaDog/DogFactoryHaski.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/fabricaDog/DogFactoryHaski.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practika2_0/fabricaDog/DogFactoryKorgi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/fabricaDog/DogFactoryKorgi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practika2_0/fabricaDog/DogFactoryLaika.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/fabricaDog/DogFactoryLaika.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practika2_0/fabricaDog/RandomNewDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/RandomNewDog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Practika2_0/models/Dogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/models/Dogs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Practika2_0/models/Haski.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/models/Haski.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Practika2_0/models/Korgi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/models/Korgi.java" afterDir="false" />
@@ -43,16 +49,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Anton-Kot/IdeaProjects/AutoQA/QA&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Anton-Kot/IdeaProjects/AutoQA/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Anton-Kot/Downloads/Telegram Desktop/JavaAQA (4)",
+    "onboarding.tips.debug.path": "C:/Users/Anton-Kot/IdeaProjects/AutoQA/src/Main.java",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Practika2_0.fabricaDog" />
@@ -65,7 +71,7 @@
       <recent name="Practika2_0.fabricaDog" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.TestDog">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java.Main" />
       <module name="AutoQA" />
@@ -123,7 +129,7 @@
       <module name="AutoQA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practika2_0.active.*" />
+          <option name="PATTERN" value="Practika2_0.models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,8 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.TestDog" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Stream" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.StreamClaasExample" />
@@ -254,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720790941117</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Redesign of the abstract Dogs class">
+      <option name="closed" value="true" />
+      <created>1721209896719</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1721209896719</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -309,25 +323,5 @@
     <MESSAGE value="Redesign of the Dog class" />
     <MESSAGE value="Redesign of the abstract Dogs class" />
     <option name="LAST_COMMIT_MESSAGE" value="Redesign of the abstract Dogs class" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Practika2_0/fabricaDog/BaseDogFactory.java</url>
-          <line>5</line>
-          <properties class="Practika2_0.fabricaDog.BaseDogFactory" method="getRandomName">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Practika2_0/fabricaDog/RandomNewDog.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

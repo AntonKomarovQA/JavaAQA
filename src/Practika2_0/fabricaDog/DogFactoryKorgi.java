@@ -1,26 +1,37 @@
 package Practika2_0.fabricaDog;
 
+import Practika2_0.models.Dogs;
+import Practika2_0.models.Korgi;
+
 import java.util.Random;
 
 //случайное создание Собаки Корги
-public class DogFactoryKorgi implements BaseDogFactory{
-        Random random = new Random();
+public class DogFactoryKorgi extends BaseDogFactory {
+    Random random = new Random();
+
+    @Override
+    public Dogs getInstanse() {
+        return new Korgi(getRandomName(),getRandomAge(),getRandomColor());
+    }
+
     //получение имени
     @Override
-    public String getRandomName() {
-        String [] name  = {"Bandi", "Ted", "Rich", "Pux"};
+    protected String getRandomName() {
+        String[] name = {"Bandi", "Ted", "Rich", "Pux"};
         return name[random.nextInt(name.length)];
     }
+
     //получение возраста
     @Override
-    public int getRandomAge() {
+    protected int getRandomAge() {
         return random.nextInt(12);
     }
+
     //получение цвета
     @Override
-    public String getRandomColor() {
-        String [] color  = {"yellow", "white"};
+    protected String getRandomColor() {
+        String[] color = {"yellow", "white"};
         return color[random.nextInt(color.length)];
     }
-    }
+}
 

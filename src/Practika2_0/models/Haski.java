@@ -1,9 +1,5 @@
 package Practika2_0.models;
 
-import Practika2_0.active.Deistvia;
-
-import java.util.Random;
-
 public class Haski extends Dogs implements Deistvia {
 
     //Конструктор Хаски
@@ -29,6 +25,16 @@ public class Haski extends Dogs implements Deistvia {
     @Override
     public void kus() {
         System.out.println(getName()+" is bitting");
+    }
+
+    @Override
+    public String toString() {
+        return "Haski" +
+                " name='" + getName() + '\'' +
+                ", age=" + getAge() +
+                ", color='" + getColor() + '\'' +
+                ", type='" + getType() + '\'' +
+                '}';
     }
 
     @Override

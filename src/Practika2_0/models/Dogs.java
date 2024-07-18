@@ -8,9 +8,7 @@ package Practika2_0.models;
     Использовать класс Random
  */
 
-import Practika2_0.active.Deistvia;
-
-public abstract class Dogs   {
+public abstract class Dogs implements Deistvia  {
     private   String name;
     private  int age;
     private  String color;
@@ -27,17 +25,6 @@ public abstract class Dogs   {
     public Dogs() {
     }
     // Корректный вывод в консоли
-
-
-    @Override
-    public String toString() {
-        return "Dogs" +
-                " name='" + name + '\'' +
-                ", age=" + age +
-                ", color='" + color + '\'' +
-                ", type='" + type + '\'' +
-                '}';
-    }
 
     public String getName() {
         return name;
