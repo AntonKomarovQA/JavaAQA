@@ -26,20 +26,28 @@ dependencies {
     testImplementation 'ch.qos.logback:logback-classic:1.2.9'
 }
 
-tasks.register("myTags", Test.class) {
-    test {
-        useJUnitPlatform()
-        testLogging {
-            events "passed", "failed", "skipped"
-        }
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
     }
+}
+
+tasks.register("myTags", Test.class){
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+
     String fullTags = System.getProperty("customTags")
-    if (fullTags != null) {
-        String[] tags = System.getProperty("customTags").split(",")
-        useJUnitPlatform() {
-            for (String tag : tags) {
+    if (fullTags != null){
+        String[] tags = fullTags.split(",")
+        useJUnitPlatform{
+            for (String tag: tags){
                 includeTags.add(tag)
             }
         }
+
+
     }
+
 }
