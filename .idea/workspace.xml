@@ -4,24 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d38ab883-c8e8-44f3-911f-5c917793be08" name="Changes" comment="Redesign of the abstract Dogs class">
+    <list default="true" id="d38ab883-c8e8-44f3-911f-5c917793be08" name="Changes" comment="Redesign3.0 of the abstract Dogs class">
+      <change afterPath="$PROJECT_DIR$/QA/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QA/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QA/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QA/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QA/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/QA/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QA/src/test/java/tests/PropertiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/QA/src/test/java/tests/PropertiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/QA/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QA/src/test/java/tests/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/QA/src/test/java/tests/SimpleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practika2_0/TestDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/TestDog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practika2_0/active/Deistvia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/models/Deistvia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practika2_0/active/RandomActive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/RandomActive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practika2_0/fabricaDog/BaseDogFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/fabricaDog/BaseDogFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practika2_0/fabricaDog/DogFactoryHaski.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/fabricaDog/DogFactoryHaski.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practika2_0/fabricaDog/DogFactoryKorgi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/fabricaDog/DogFactoryKorgi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practika2_0/fabricaDog/DogFactoryLaika.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/fabricaDog/DogFactoryLaika.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practika2_0/fabricaDog/RandomNewDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/RandomNewDog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practika2_0/models/Dogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/models/Dogs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practika2_0/models/Haski.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/models/Haski.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practika2_0/models/Korgi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/models/Korgi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practika2_0/models/Laika.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practika2_0/models/Laika.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA/src/test/java/utilits/Appconfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/QA/src/test/java/utilits/Appconfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAsrc/test/resources/FailedTest.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +31,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/QA_2" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -53,8 +47,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Anton-Kot/Downloads/Telegram Desktop/JavaAQA (4)",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Anton-Kot/IdeaProjects/AutoQA",
     "onboarding.tips.debug.path": "C:/Users/Anton-Kot/IdeaProjects/AutoQA/src/Main.java",
     "settings.editor.selected.configurable": "vcs.Git"
   }
@@ -268,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721209896719</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Redesign3.0 of the abstract Dogs class">
+      <option name="closed" value="true" />
+      <created>1721314470865</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1721314470865</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,6 +324,7 @@
     <MESSAGE value="New realization class Dogs" />
     <MESSAGE value="Redesign of the Dog class" />
     <MESSAGE value="Redesign of the abstract Dogs class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redesign of the abstract Dogs class" />
+    <MESSAGE value="Redesign3.0 of the abstract Dogs class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redesign3.0 of the abstract Dogs class" />
   </component>
 </project>
