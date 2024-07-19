@@ -30,8 +30,6 @@ public class CalcTest {
 
         Allure.step("Проверяем что результат " + res.get()+" > 0 ", x->{
             Assertions.assertTrue(res.get()< 0);
-                });
-
+        });
     }
-
 }
